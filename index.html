@@ -11,26 +11,28 @@
 
 <body>
   <div class="app">
-    <div class="date-inputs">
-      <div class="input">
-        <label for="day">DAY</label>
-        <input type="number" id="day" placeholder="DD">
-        <span class="error-lable"></span>
+    <form id="form">
+      <div class="date-inputs">
+        <div class="input">
+          <label for="day">DAY</label>
+          <input type="number" id="day" placeholder="DD">
+          <span class="error-lable"></span>
+        </div>
+        <div class="input">
+          <label for="month">MONTH</label>
+          <input type="number" id="month" placeholder="MM">
+          <span class="error-lable"></span>
+        </div>
+        <div class="input">
+          <label for="year">YEAR</label>
+          <input type="number" id="year" placeholder="YYYY">
+          <span class="error-lable"></span>
+        </div>
       </div>
-      <div class="input">
-        <label for="month">MONTH</label>
-        <input type="number" id="month" placeholder="MM">
-        <span class="error-lable"></span>
+      <div class="submit-btn">
+        <button><img src="assets/images/icon-arrow.svg" alt="arrow"></button>
       </div>
-      <div class="input">
-        <label for="year">YEAR</label>
-        <input type="number" id="year" placeholder="YYYY">
-        <span class="error-lable"></span>
-      </div>
-    </div>
-    <div class="submit-btn">
-      <button><img src="assets/images/icon-arrow.svg" alt="arrow"></button>
-    </div>
+    </form>
     <div class="age-output">
       <div class="col" id="years">
         <span class="number">--</span>
